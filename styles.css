@@ -1,0 +1,293 @@
+:root{
+    /* --bs-green : #4CAF50; */
+    --bs-green: #04AA6D;
+    --bs-black : #282A35;
+    --bs-pink : #FFC0C7;
+    --bs-yellow : #FFF4A3;
+}
+
+body{
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+header{
+    height: 75px;
+    background-color:white;
+    padding: 0 28px;
+    display: flex;
+    /* align-items: center; */
+}
+
+.w3schools-logo{
+    width: 75px;
+}
+
+.w3schools-logo img{
+    width: 60%;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    height: 100%;   
+}
+
+.navbar-left a{
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 13px;
+    font-weight: 600;
+}
+
+.navbar-left a:hover{
+    background-color: var(--bs-green);
+}
+
+.navbar-right{
+    margin-left: 335px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    align-content: flex-end;
+
+}
+.navbar-right a{
+    margin: 8px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 3px 15px;
+    border-radius: 30px;
+
+}
+
+.bg-black{
+    background-color: var(--bs-black);
+    color: white;
+}
+
+.bg-green{
+    background-color: var(--bs-green);
+    color: white;
+    
+}
+
+.bg-green:hover{
+    background-color: green;
+}
+
+.bg-pink{
+    background-color: var(--bs-pink);
+    color: black;
+}
+.bg-yellow{
+    background-color: var(--bs-yellow);
+    color: black;
+}
+
+.w3loginbtn{
+    width: 100px;
+    text-align: center;
+
+}
+
+
+.w3black1{
+    height: 485px;
+    background-color: #282A35;
+    color: white;
+}
+
+.w3light-green{
+    height: 601px;
+    background-color: #D9EEE1;
+    color: black;
+    margin-top: -10px;
+}
+
+.learntocodecontent{
+    text-align: center;
+    height: 293px;
+    padding: 20px 90px;
+    /* background-color: #04AA6D; */
+}
+.learntocodeh1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+.learntocodeh3{
+    color: #FFC0C7;
+    font-weight: 700;
+    margin-top: 30px!important;
+    font-size: 23px;
+}
+
+.search-button{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.w3searchbar {
+    margin-right: -4px;
+    border-radius: 25px 0px 0px 25px;
+    width: 350px;
+    height: 40px;
+    border: 1px solid #282A35;
+
+}
+
+.search-button {
+    height: 43px;
+    width: 8%;
+    border-radius: 25px;
+    background: #04AA6D;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+form.example {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.not-sure{
+    text-align: center;
+}
+.not-sure a{
+    color: white;
+    font-size: 23px;
+}
+.not-sure a:hover{
+    color: var(--bs-green);
+}
+
+
+.ws-yellow{
+    height: 581px;
+    background-color: #FFF4A3;
+    color: black;
+}
+
+.ws-black{
+    height: 525px;
+    background-color: #282A35;
+    color: white;
+}
+
+.ws-light-pink{
+    height: 520px;
+    background-color: #F3ECEA;
+}
+
+.ws-turqu{
+    height: 520px;
+    background-color: #96D4D4;
+}
+
+.ws-black2{
+    height: 1090px;
+    background-color: #282A35;
+}
+
+.w3light-green{
+    display: flex;
+    justify-content: space-around;
+}
+
+.w3light-green h6{
+    margin: 0;
+    font-size: 19px;
+}
+.w3light-green h1{
+    margin: 0;
+    font-size: 100px;
+    font-weight: 700;
+}
+.learn-html-main a{
+    margin: 21px;
+    display: flex;
+    justify-content:center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+
+.video-tutorial{
+    background-color: #FFF4A3;
+    color: black;
+}
+
+.learn-html{
+    background-color: var(--bs-green);
+    color: white;
+}
+
+.html-reference{
+    background-color: var(--bs-black);
+    color: white;
+}
+
+.get-certified{
+    background-color: var(--bs-pink);
+    color: black;
+}
+
+.code-box{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-color: #E7E9EB;
+    color: black;
+    width: 600px;
+    height: 450px;
+    box-shadow:  0px 0px 10px 3px rgba(0,0,0,0.16);
+}
+.code-box>*:first-child, .code-box>*:last-child {
+    align-self: flex-start;
+    padding: 20px 0 0 20px;
+    margin: 0;
+}
+
+.code-box h3{
+    margin: 0;
+    text-align: left;
+}
+
+.white-code-box{
+    margin-top: 25px;
+    width: 560px;
+    height: 300px;
+    background-color: white;
+}
+
+
+.tryit-button{
+    background-color: var(--bs-green);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    width: 130px;
+}
